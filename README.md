@@ -14,11 +14,11 @@ new MainGenerator().generate(directory, str, programName, pack);
 + `pack` - package to save parser
 
 ### Examples:
-+ Calculator - [grammar](/source/Calculator.dkr), [generated files](/src/main/java/generated/calculator), [tests](/src/test/java/generated/calculator)
++ Calculator - [grammar](/source/Calculator.dkr), [generated files](/src/main/java/generated/calculator), [tests](/src/test/java/generated/calculator/ParserCalculatorTest.java)
     + operations: `+`, `-`, `*`, `-`, `!`
-+ Logic expressions - [grammar](/source/Logic.dkr), [generated files](/src/main/java/generated/logic), [tests](/src/test/java/generated/logic)
++ Logic expressions - [grammar](/source/Logic.dkr), [generated files](/src/main/java/generated/logic), [tests](/src/test/java/generated/logic/ParserLogicTest.java)
     + operations: `not`, `and`, `or`, `xor`
-+ Pascal variables - [grammar](/source/PascalVar.dkr), [generated files](/src/main/java/generated/pascal), [tests](/src/test/java/generated/pascal)
++ Pascal variables - [grammar](/source/PascalVar.dkr), [generated files](/src/main/java/generated/pascal), [tests](/src/test/java/generated/pascal/ParserPascalVarTest.java)
     + parse variables with type
 
 ### References
